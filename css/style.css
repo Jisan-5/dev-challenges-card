@@ -1,0 +1,51 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+*{
+  font-family: "Sora", sans-serif;
+}
+body{
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  
+}
+
+.card-body{
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 20px rgba(0, 0,0 , 0.2);
+}
+
+img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  
+}
+.btn{
+  margin-top: 18px;
+  color: #883AE1;
+  background-color: #E6D6FC;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+.hr{
+    width: 400px;
+    border: 1px solid red;
+}
+a{
+  color: #6C727F;
+}

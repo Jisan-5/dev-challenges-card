@@ -41,6 +41,7 @@ img{
   font-weight: 600;
   padding: 5px 15px;
   border-radius: 15px;
+  cursor: pointer;
 }
 .hr{
     width: 400px;
